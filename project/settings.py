@@ -24,9 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!rqe&u&zu4g#@+ffrctqiyzd)10m0pz4a_qdh)90w=^6u&d$f9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['personalchat-api.vercel.app', 'your-custom-domain.com']
+ALLOWED_HOSTS = ['personalchat-api.vercel.app']
+
+
 
 
 
